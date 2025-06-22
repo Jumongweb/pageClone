@@ -47,12 +47,12 @@ const People = () => {
   const [touchStart, setTouchStart] = useState(0);
   const [touchEnd, setTouchEnd] = useState(0);
 
-  const handleTouchStart = (e) => {
-    setTouchStart(e.touches[0].clientX);
-  };
-
-  const handleTouchMove = (e) => {
+  const handleTouchMove = (e: React.TouchEvent<HTMLDivElement>) => {
     setTouchEnd(e.touches[0].clientX);
+  };
+  
+  const handleTouchStart = (e: React.TouchEvent<HTMLDivElement>) => {
+    setTouchStart(e.touches[0].clientX);
   };
 
   const handleTouchEnd = () => {
