@@ -20,7 +20,7 @@ const Customer = () => {
         Happy <span className="text-orange-500">Customer</span> stories
       </h2>
       <div className="mt-4 sm:mt-6 md:mt-8">
-        <div className="md:grid md:grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 hidden md:block">
+        <div className="md:grid md:grid-cols sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 hidden md:block">
           {customers.map((customer, index) => (
             <div key={index} className="text-center flex flex-col items-center">
               <Image src={customer.image} alt={`Customer ${index + 1}`} />

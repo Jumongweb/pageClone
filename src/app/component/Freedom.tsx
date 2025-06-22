@@ -32,7 +32,7 @@ const Freedom = () => {
         <button className="bg-amber-400 px-3 py-1.5 sm:px-4 sm:py-2 rounded-2xl text-white text-sm sm:text-base mb-2 sm:mb-4">
           Why Paga
         </button>
-        <p className="text-2xl sm:text-3xl md:text-4xl">
+        <p className="text-2xl sm:text-3xl md:text-4xl font-bold">
           Freedom to do it <span className="text-pink-500">your way</span>
         </p>
       </div>

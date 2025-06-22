@@ -6,10 +6,13 @@ import Freedom from '../component/Freedom'
 import Paybill from '../component/Paybill'
 import Agent from '../component/Agent'
 import Customer from '../component/Customer'
+import Patnering from '../component/Patnering'
+import DownloadApp from '../component/DownloadApp'
+import Footer from '../component/Footer'
 
 const Home = () => {
   return (
-    <div className='mb-56 bg-[#ffffff]'>
+    <div className='bg-[#ffffff]'>
         <Header/>
         <HeroPage/>
         <People/>
@@ -17,6 +20,9 @@ const Home = () => {
         <Paybill/>
         <Agent/>
         <Customer/>
+        <Patnering/>
+        <DownloadApp/>
+        <Footer/>
     </div>
   )
 }

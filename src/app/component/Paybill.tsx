@@ -27,7 +27,7 @@ const Paybill = () => {
 
   return (
     <div className="bg-[#fefae3] px-4 sm:px-8 md:px-16 lg:px-36 py-6 sm:py-8 max-w-screen-xl mx-auto">
-      <div className="text-left">
+      <div className="text-left font-bold">
         <p className="text-2xl sm:text-3xl md:text-4xl">
           Pay your <span className="text-[#fa5454]">bills instantly</span>
         </p>

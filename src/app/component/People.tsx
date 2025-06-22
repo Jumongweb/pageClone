@@ -70,7 +70,7 @@ const People = () => {
 
   return (
     <div className="px-4 sm:px-8 md:px-16 lg:px-24 xl:px-36 py-6 sm:py-8">
-      <div className="text-2xl sm:text-3xl md:text-5xl mb-6 sm:mb-8 text-center sm:text-left">
+      <div className="text-2xl sm:text-3xl md:text-5xl mb-6 sm:mb-8 text-center sm:text-left font-bold">
         <p>
           Join over <span className="text-orange-400">19 million</span>
         </p>
